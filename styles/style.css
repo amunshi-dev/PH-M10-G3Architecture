@@ -46,7 +46,7 @@
 .h3 {
   font-size: var(--fs-h3);
   color: var(--txt-dark-1);
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-semibold);
 }
 .paragraph {
   font-size: var(--fs-p);
@@ -55,9 +55,11 @@
 .link {
   font-size: var(--fs-link);
   color: var(--txt-dark-2);
+  text-decoration: none;
 }
 .btn-primary {
   border: none;
+  border-radius: 0.5rem;
   cursor: pointer;
   color: var(--txt-light);
   background-color: var(--bg-secondary);
@@ -65,7 +67,7 @@
   font-size: var(--fs-btn);
   font-weight: var(--fw-regular);
 }
-
+.bg-primary{background-color: var(--bg-primary);}
 .flex {
   display: flex;
 }
